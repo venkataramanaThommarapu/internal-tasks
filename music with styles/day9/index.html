@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+    <div class="heading"> Media Elements </div>
+</header>
+<main>
+    <div class="sub-heading"> Audio </div>
+    <div class="container">
+        <audio id="myAudio"> </audio>
+        <div class="audio">
+            <img src="./images/lover_image.jpg" alt="img1">
+            <div class="title"><b>Lover</b></div>
+            <div class="btn1-group">
+                <button class="button button1" onclick="playAudio('music/Lover.mp3')" type="button">play</button>
+                <button class="button button2" onclick="pauseAudio()" type="button">pause</button>
+            </div>
+        </div>
+        <div class="audio">
+            <img src=".\images\taylor_swift_love_story.jpg" alt="img1">
+            <div class="title"><b>Taylor-Swift-Love-Story</b></div>
+
+            <div class="btn1-group">
+                <button class="button button1" onclick="playAudio('music/Taylor-Swift-Love-Story.mp3')"
+                    type="button">play</button>
+                <button class="button button2" onclick="pauseAudio()" type="button">pause</button>
+            </div>
+        </div>
+        <div class="audio">
+            <img src="./images/Taylor_Swift_Red.png" alt="img1">
+
+            <div class="title"><b>Taylor-Swift-Red</b></div>
+            <div class="btn1-group">
+                <button class="button button1" onclick="playAudio('music/Taylor-Swift-Red.mp3')"
+                    type="button">play</button>
+                <button class="button button2" onclick="pauseAudio()" type="button">pause</button>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="./main.js"></script>
+</body>
+
+</html>

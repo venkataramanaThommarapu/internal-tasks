@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+nav {
+  /* display:flex;
+    justify-content: space-between; */
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  height: 75px;
+}
+
+.login-form {
+  float: right;
+}
+
+.logo-container {
+  width: 50%;
+  padding-top: 12px;
+}
+.fb {
+  font-size: 2.5em;
+}
+
+.fm {
+  display: flex;
+}
+
+.inp-grp {
+  margin: 0px 5px;
+}
+
+.login-input-field {
+  height: 25px;
+  border-radius: 4px;
+  margin: 3px 0px;
+}
+.forgotaccont {
+  color: #757677;
+}
+.login-button {
+  height: 30px;
+  border-radius: 2px;
+  background: #3f51b5;
+  margin-top: 21px;
+}
+
+.main-section {
+  width: 100%;
+  position: absolute;
+  background-color: lightgray;
+}
+
+.connect {
+  width: 49%;
+  float: left;
+  
+}
+.side-connect{
+    padding:3rem 2rem 2rem 2rem;
+}
+
+.connect-container {
+  display: inline-block;
+}
+.signup {
+  width: 49%;
+  float: right;
+}
+.sign1 {
+  margin-top: 15px;
+}
+.form2 {
+  padding-top: 15px;
+}
+.signup-input-field {
+  height: 25px;
+  border-radius: 4px;
+  margin: 3px 0px;
+  width: 334px;
+}
+
+.birthdaytag {
+  width: 50%;
+  float: left;
+}
+.birthday-select-fields {
+  width: 50%;
+  float: left;
+}
+
+.birthday-select-fields select{
+    width: 31%;
+
+}

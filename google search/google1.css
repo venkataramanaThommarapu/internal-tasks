@@ -1,0 +1,42 @@
+.gimage{
+padding: 114px;
+}
+input{
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+
+
+}
+main{
+    height: 82vh;
+}
+footer{
+    background-color: aliceblue;
+
+}
+.footer-element1{
+text-decoration: none;
+
+}
+.ordered-list1{
+    display: inline-flex;
+    list-style: none;
+   
+}
+.ordered-list2{
+    display: inline-flex;
+    list-style: none;
+    float:right;
+}
+
+.search-container{
+    position: relative;
+}
+.serach1{
+    position:absolute;
+    top:22px;
+    left: 28%;
+    width: 26px;
+    height: 26px;
+}
